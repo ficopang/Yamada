@@ -1,0 +1,192 @@
+{
+  "motors": {
+    "MATIC": {
+      "type": "MATIC",
+      "motor": [
+        {
+          "name": "FAZZIO HYBRID-CONNECTED",
+          "price": "21.890.000",
+          "type": "MATIC",
+          "colors": ["white", "black"]
+        },
+        {
+          "name": "GEAR 125",
+          "price": "17.395.000",
+          "type": "MATIC",
+          "colors": ["white", "red"]
+        },
+        {
+          "name": "FREEGO",
+          "price": "19.965.000",
+          "type": "MATIC",
+          "colors": ["white"]
+        },
+        {
+          "name": "X-RIDE",
+          "price": "19.400.000",
+          "type": "MATIC",
+          "colors": ["cyan", "red", "blue"]
+        },
+        {
+          "name": "MIO M3",
+          "price": "17.135.000",
+          "type": "MATIC",
+          "colors": ["white", "blue", "black", "red"]
+        },
+        {
+          "name": "FINO",
+          "price": "19.585.000",
+          "type": "MATIC",
+          "colors": ["red", "blue"]
+        },
+        {
+          "name": "MIO S",
+          "price": "16.915.000",
+          "type": "MATIC",
+          "colors": ["lightblue", "red", "black", "blue", "pink"]
+        },
+        {
+          "name": "MIO Z",
+          "price": "15.800.000",
+          "type": "MATIC",
+          "colors": ["gray", "black", "red"]
+        },
+        {
+          "name": "ALL NEW SOUL GT",
+          "price": "17.300.000",
+          "type": "MATIC",
+          "colors": ["green"]
+        }
+      ]
+    },
+    "MAXI": {
+      "type": "MAXI",
+      "motor": [
+        {
+          "name": "ALL NEW NMAX 155",
+          "price": "31.115.000",
+          "type": "MAXI",
+          "colors": ["green", "red", "white", "black"]
+        },
+        {
+          "name": "ALL NEW AEROX 155 CONNECTED",
+          "price": "26.775.000",
+          "type": "MAXI",
+          "colors": ["white", "black"]
+        },
+        {
+          "name": "LEXI",
+          "price": "22.540.000",
+          "type": "MAXI",
+          "colors": ["black"]
+        },
+        {
+          "name": "XMAX",
+          "price": "62.540.000",
+          "type": "MAXI",
+          "colors": ["green", "red", "black"]
+        },
+        {
+          "name": "NMAX 155 ABS",
+          "price": "32.265.000",
+          "type": "MAXI",
+          "colors": ["black", "blue", "gray", "white"]
+        },
+        {
+          "name": "AEROX 155 VVA S-VERSION",
+          "price": "28,565,000",
+          "type": "MAXI",
+          "colors": ["black", "red"]
+        },
+        {
+          "name": "AEROX 155 VVA R-VERSION",
+          "price": "26.135.000",
+          "type": "MAXI",
+          "colors": ["white"]
+        },
+        {
+          "name": "AEROX 155VVA R-VERSION MONSTER ENERGY YAMAHA MOTOGP EDITION",
+          "price": "26,645,000",
+          "type": "MAXI",
+          "colors": ["blue"]
+        },
+        {
+          "name": "AEROX 155 VVA",
+          "price": "24.795.000",
+          "type": "MAXI",
+          "colors": ["gray", "black", "red"]
+        },
+        {
+          "name": "TMAX DX",
+          "price": "320,000,000",
+          "type": "MAXI",
+          "colors": ["silver", "blue"]
+        }
+      ]
+    },
+    "NAKED": {
+      "type": "NAKED BIKE",
+      "motor": [
+        {
+          "name": "XSR-155",
+          "price": "37.235.000",
+          "type": "NAKED",
+          "colors": ["blue", "white", "black"]
+        },
+        {
+          "name": "MT-25",
+          "price": "56.725.000",
+          "type": "NAKED",
+          "colors": ["gray", "blue"]
+        },
+        {
+          "name": "MT-15",
+          "price": "37.930.000",
+          "type": "NAKED",
+          "colors": ["gray", "blue"]
+        },
+        {
+          "name": "VIXION",
+          "price": "28.740.000",
+          "type": "NAKED",
+          "colors": ["black", "red"]
+        },
+        {
+          "name": "XABRE",
+          "price": "30.700.000",
+          "type": "NAKED",
+          "colors": ["green", "red", "white"]
+        },
+        {
+          "name": "BYSON FI",
+          "price": "22.950.000",
+          "type": "NAKED",
+          "colors": ["red", "brown", "gray"]
+        }
+      ]
+    },
+    "SPORT": {
+      "type": "SPORT",
+      "motor": [
+        {
+          "name": "ALL NEW R15 CONNECTED",
+          "price": "39,240,000",
+          "type": "NAKED",
+          "colors": ["white"]
+        },
+        {
+          "name": "R15",
+          "price": "37.550.000",
+          "type": "NAKED",
+          "colors": ["blue", "white", "black"]
+        },
+        {
+          "name": "R25",
+          "price": "62.760.000",
+          "type": "NAKED",
+          "colors": ["blue", "black"]
+        }
+      ]
+    }
+  }
+}
