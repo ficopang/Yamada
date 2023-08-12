@@ -8,10 +8,10 @@
   <title>YAMADA - Home</title>
   <link rel="stylesheet" href="style.css" />
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png" />
-  <link rel="manifest" href="/assets/favicon/site.webmanifest" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="./assets/favicon/site.webmanifest" />
 
   <!-- FONTS -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -23,7 +23,7 @@
   <nav>
     <div class="logo">
       <div class="trapezoid"></div>
-      <a href="index.html"><img src="/assets/logo-crop.png" alt="logo" width="150px" /></a>
+      <a href="index.html"><img src="./assets/logo-crop.png" alt="logo" width="150px" /></a>
     </div>
     <input type="checkbox" id="toggler" />
     <label for="toggler">☰</label>
@@ -148,7 +148,7 @@
       <div id="product_container" class="product_card__container">
         <div class="product_card">
           <h3 class="name">X-RIDE</h3>
-          <img src="/assets/motor/matic/X-RIDE_CYAN.png" alt="X-RIDE" />
+          <img src="./assets/motor/MATIC/X-RIDE_CYAN.png" alt="X-RIDE" />
           <div class="color">
             <span class="selected"><a class="cyan" href="#"></a></span><span><a class="red" href="#"></a></span><span><a
                 class="blue" href="#"></a></span>
@@ -160,7 +160,7 @@
         </div>
         <div class="product_card">
           <h3 class="name">MIO M3</h3>
-          <img src="/assets/motor/matic/MIO-M3_WHITE.png" alt="MIO M3" />
+          <img src="./assets/motor/MATIC/MIO-M3_WHITE.png" alt="MIO M3" />
           <div class="color">
             <span class="selected"><a class="white" href="#"></a></span><span><a class="blue"
                 href="#"></a></span><span><a class="black" href="#"></a></span><span><a class="red" href="#"></a></span>
@@ -172,7 +172,7 @@
         </div>
         <div class="product_card">
           <h3 class="name">FINO</h3>
-          <img src="/assets/motor/matic/FINO_RED.png" alt="FINO" />
+          <img src="./assets/motor/MATIC/FINO_RED.png" alt="FINO" />
           <div class="color">
             <span class="selected"><a class="red" href="#"></a></span><span><a class="blue" href="#"></a></span>
           </div>
@@ -235,7 +235,7 @@
           const COLOR = e.target.classList[0];
 
           const newSRC =
-            '/assets/motor/matic/' +
+            './assets/motor/MATIC/' +
             e.target.parentElement.parentElement.parentElement
               .querySelector('.name')
               .innerText.trim()

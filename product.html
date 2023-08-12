@@ -8,10 +8,10 @@
   <title>YAMADA - Produk</title>
   <link rel="stylesheet" href="style.css" />
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png" />
-  <link rel="manifest" href="/assets/favicon/site.webmanifest" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="./assets/favicon/site.webmanifest" />
 
   <!-- FONTS -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -23,7 +23,7 @@
   <nav>
     <div class="logo">
       <div class="trapezoid"></div>
-      <a href="index.html"><img src="assets/logo-crop.png" alt="logo" width="150px" /></a>
+      <a href="index.html"><img src="./assets/logo-crop.png" alt="logo" width="150px" /></a>
     </div>
     <input type="checkbox" id="toggler" />
     <label for="toggler">☰</label>
@@ -62,7 +62,7 @@
       <p>Whatsapp: (+62) 8111080090</p>
       <p>Email: contact_center@yamaha-motor.co.id</p>
     </div>
-    <img src="assets/logo.png" alt="" />
+    <img src="./assets/logo.png" alt="" />
     <div class="social">
       <a href="https://www.facebook.com/yamaholigan"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
           xmlns="http://www.w3.org/2000/svg">
@@ -369,8 +369,8 @@
         container.appendChild(
           create_product_card(
             obj[index].name,
-            '/assets/motor/' +
-            type +
+            './assets/motor/' +
+            type.toUpperCase() +
             '/' +
             obj[index].name.trim().split(' ').join('-') +
             '_' +
@@ -389,8 +389,8 @@
           const COLOR = e.target.classList[0];
 
           const newSRC =
-            '/assets/motor/' +
-            type +
+            './assets/motor/' +
+            type.toUpperCase() +
             '/' +
             e.target.parentElement.parentElement.parentElement
               .querySelector('.name')
